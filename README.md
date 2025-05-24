@@ -24,6 +24,18 @@ This project analyzes customer service satisfaction (CSAT) data for Flipkart, wi
 
 ---
 
+## Pre-trained Model
+
+A pre-trained model is saved as `xgboost_csat_model.joblib`.  
+You can load it with:
+
+```python
+import joblib
+model = joblib.load("xgboost_csat_model.joblib")
+```
+
+---
+
 ## Installation
 
 1. Clone the repository:
@@ -31,3 +43,30 @@ This project analyzes customer service satisfaction (CSAT) data for Flipkart, wi
 ```bash
 git clone https://github.com/amarssingh/CSAT-Prediction-Model.git
 cd flipkart-csat-analysis
+```
+
+2. Install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+ - Open the Jupyter notebook Flipkart_CSAT_Analysis.ipynb
+
+ - Follow the step-by-step analysis and model implementation
+
+ - Visualizations and model results are presented inline
+
+ - Modify the notebook to test with different parameters or datasets
+
+---
+
+## Acknowledgments
+
+ - Flipkart Dataset 
+
+ - Thanks to the open-source data science community for libraries and tools used.
