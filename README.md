@@ -29,5 +29,5 @@ This project analyzes customer service satisfaction (CSAT) data for Flipkart, wi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/flipkart-csat-analysis.git
+git clone https://github.com/amarssingh/CSAT-Prediction-Model.git
 cd flipkart-csat-analysis
